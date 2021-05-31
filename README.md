@@ -135,7 +135,7 @@ function a:Window(w)
         ColorSequence.new {
         ColorSequenceKeypoint.new(0.00, Color3.fromRGB(51, 153, 255)),
         ColorSequenceKeypoint.new(0.20, Color3.fromRGB(51, 153, 255)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(131, 132, 255)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(51, 153, 255)),
         ColorSequenceKeypoint.new(0.80, Color3.fromRGB(51, 153, 255)),
         ColorSequenceKeypoint.new(1.00, Color3.fromRGB(51, 153, 255))
     }
