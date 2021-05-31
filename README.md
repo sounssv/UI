@@ -120,7 +120,7 @@ function a:Window(w)
     local G = Instance.new("Frame")
     y.Name = "Top"
     y.Parent = t
-    y.BackgroundColor3 = Color3.fromRGB(43, 43, 43)
+    y.BackgroundColor3 = Color3.fromRGB(102, 102, 153)
     y.BorderSizePixel = 0
     y.Position = UDim2.new(0, 25, 0, -30 + 36 * a.windowCount + 6 * a.windowCount)
     y.Size = UDim2.new(0, 212, 0, 36)
@@ -171,7 +171,7 @@ function a:Window(w)
     D.BorderSizePixel = 0
     D.Position = UDim2.new(0.5, 0, 0.5, 0)
     D.Size = UDim2.new(0, 18, 0, 18)
-    D.Image = "rbxassetid://3926305904"
+    D.Image = "rbxassetid://3926307971"
     D.ImageRectOffset = Vector2.new(524, 764)
     D.ImageRectSize = Vector2.new(36, 36)
     D.Rotation = 180
