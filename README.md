@@ -71,7 +71,7 @@ function ClickEffect(r)
             s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             s.BackgroundTransparency = 1.000
             s.ZIndex = 8
-            s.Image = "rbxassetid://2708891598"
+            s.Image = "rbxassetid://"
             s.ImageTransparency = 0.800
             s.ScaleType = Enum.ScaleType.Fit
             s.ImageColor3 = Color3.fromRGB(131, 132, 255)
@@ -133,11 +133,11 @@ function a:Window(w)
     z.Size = UDim2.new(0, 212, 0, 2)
     A.Color =
         ColorSequence.new {
-        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(51, 153, 255)),
-        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(51, 153, 255)),
+        ColorSequenceKeypoint.new(0.00, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(0.20, Color3.fromRGB(43, 43, 43)),
         ColorSequenceKeypoint.new(0.50, Color3.fromRGB(131, 132, 255)),
-        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(51, 153, 255)),
-        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(51, 153, 255))
+        ColorSequenceKeypoint.new(0.80, Color3.fromRGB(43, 43, 43)),
+        ColorSequenceKeypoint.new(1.00, Color3.fromRGB(43, 43, 43))
     }
     A.Name = "WindowLineGradient"
     A.Parent = z
