@@ -68,7 +68,7 @@ function ClickEffect(r)
             local s = Instance.new("ImageLabel")
             s.Name = "Ripple"
             s.Parent = r
-            s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+            s.BackgroundColor3 = Color3.fromRGB(0, 51, 102)
             s.BackgroundTransparency = 1.000
             s.ZIndex = 8
             s.Image = "rbxassetid://2708891598"
