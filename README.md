@@ -127,7 +127,7 @@ function a:Window(w)
     Drag(y)
     z.Name = "WindowLine"
     z.Parent = y
-    z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    z.BackgroundColor3 = Color3.fromRGB(51, 153, 255)
     z.BorderSizePixel = 0
     z.Position = UDim2.new(0, 0, 0, 34)
     z.Size = UDim2.new(0, 212, 0, 2)
