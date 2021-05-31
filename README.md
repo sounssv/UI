@@ -68,13 +68,13 @@ function ClickEffect(r)
             local s = Instance.new("ImageLabel")
             s.Name = "Ripple"
             s.Parent = r
-            s.BackgroundColor3 = Color3.fromRGB(0, 51, 102)
+            s.BackgroundColor3 = Color3.fromRGB(102, 204, 255)
             s.BackgroundTransparency = 1.000
             s.ZIndex = 8
-            s.Image = "rbxassetid://2708891598"
+            s.Image = "rbxassetid://3926307971"
             s.ImageTransparency = 0.800
             s.ScaleType = Enum.ScaleType.Fit
-            s.ImageColor3 = Color3.fromRGB(131, 132, 255)
+            s.ImageColor3 = Color3.fromRGB(102, 204, 255)
             s.Position =
                 UDim2.new(
                 (h.X - s.AbsolutePosition.X) / r.AbsoluteSize.X,
@@ -143,13 +143,13 @@ function a:Window(w)
     A.Parent = z
     B.Name = "Header"
     B.Parent = y
-    B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    B.BackgroundColor3 = Color3.fromRGB(77, 136, 255)
     B.BackgroundTransparency = 1.000
     B.BorderSizePixel = 0
     B.Size = UDim2.new(0, 54, 0, 34)
     B.Font = Enum.Font.GothamSemibold
     B.Text = "   " .. tostring(w) or ""
-    B.TextColor3 = Color3.fromRGB(255, 255, 255)
+    B.TextColor3 = Color3.fromRGB(77, 136, 255)
     B.TextSize = 14.000
     B.TextXAlignment = Enum.TextXAlignment.Left
     C.Name = "WindowToggle"
