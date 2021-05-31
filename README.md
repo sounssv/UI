@@ -68,13 +68,13 @@ function ClickEffect(r)
             local s = Instance.new("ImageLabel")
             s.Name = "Ripple"
             s.Parent = r
-            s.BackgroundColor3 = Color3.fromRGB(102, 204, 255)
+            s.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             s.BackgroundTransparency = 1.000
             s.ZIndex = 8
             s.Image = "rbxassetid://2708891598"
             s.ImageTransparency = 0.800
             s.ScaleType = Enum.ScaleType.Fit
-            s.ImageColor3 = Color3.fromRGB(102, 204, 255)
+            s.ImageColor3 = Color3.fromRGB(131, 132, 255)
             s.Position =
                 UDim2.new(
                 (h.X - s.AbsolutePosition.X) / r.AbsoluteSize.X,
@@ -127,7 +127,7 @@ function a:Window(w)
     Drag(y)
     z.Name = "WindowLine"
     z.Parent = y
-    z.BackgroundColor3 = Color3.fromRGB(51, 153, 255)
+    z.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     z.BorderSizePixel = 0
     z.Position = UDim2.new(0, 0, 0, 34)
     z.Size = UDim2.new(0, 212, 0, 2)
@@ -135,7 +135,7 @@ function a:Window(w)
         ColorSequence.new {
         ColorSequenceKeypoint.new(0.00, Color3.fromRGB(51, 153, 255)),
         ColorSequenceKeypoint.new(0.20, Color3.fromRGB(51, 153, 255)),
-        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(51, 153, 255)),
+        ColorSequenceKeypoint.new(0.50, Color3.fromRGB(131, 132, 255)),
         ColorSequenceKeypoint.new(0.80, Color3.fromRGB(51, 153, 255)),
         ColorSequenceKeypoint.new(1.00, Color3.fromRGB(51, 153, 255))
     }
@@ -143,7 +143,7 @@ function a:Window(w)
     A.Parent = z
     B.Name = "Header"
     B.Parent = y
-    B.BackgroundColor3 = Color3.fromRGB(77, 136, 255)
+    B.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
     B.BackgroundTransparency = 1.000
     B.BorderSizePixel = 0
     B.Size = UDim2.new(0, 54, 0, 34)
